@@ -53,7 +53,7 @@ function createNewProductWindow() {
      nodeIntegration: true,
    }
   });
-//  newProductWindow.setMenu(null);
+  newProductWindow.setMenu(null);
 
   newProductWindow.loadURL(url.format({
     pathname: path.join(__dirname, 'views/new-product.html'),
